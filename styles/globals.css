@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .general{
+  @apply py-[20px] px-[20px] text-white block
+} */
+.side-wrapper{
+  @apply bg-orange-700 w-[15%];
+}
+.side-wrapper p{
+  @apply my-4 font-semibold text-[30px] text-white text-center
+}
+.content-wrapper{
+  @apply w-[85%]
+}
+/* .active{
+   @apply bg-secondary-1 !text-[#0B2447]
+} */
